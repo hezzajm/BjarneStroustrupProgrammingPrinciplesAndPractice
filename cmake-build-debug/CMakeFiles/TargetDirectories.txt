@@ -1,0 +1,3 @@
+C:/C++/BjarneStroustrupProgrammingPrinciplesAndPractice/cmake-build-debug/CMakeFiles/BjarneStroustrupProgrammingPrinciplesAndPractice.dir
+C:/C++/BjarneStroustrupProgrammingPrinciplesAndPractice/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/C++/BjarneStroustrupProgrammingPrinciplesAndPractice/cmake-build-debug/CMakeFiles/rebuild_cache.dir

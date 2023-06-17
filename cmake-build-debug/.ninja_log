@@ -1,0 +1,4 @@
+# ninja log v5
+3	123	7087025346643425	build.ninja	c295d9f60faa3e06
+0	1244	7087025359615828	CMakeFiles/BjarneStroustrupProgrammingPrinciplesAndPractice.dir/Chapter3/ex2.cpp.obj	842550b3db0ea150
+1245	1626	7087025363352152	BjarneStroustrupProgrammingPrinciplesAndPractice.exe	2906c6dd9b4a5bfe
