@@ -3,4 +3,4 @@ project(BjarneStroustrupProgrammingPrinciplesAndPractice)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(BjarneStroustrupProgrammingPrinciplesAndPractice Chapter24/ex1.cpp Chapter24/Matrix.h)
+add_executable(BjarneStroustrupProgrammingPrinciplesAndPractice Chapter4/ex2.cpp)

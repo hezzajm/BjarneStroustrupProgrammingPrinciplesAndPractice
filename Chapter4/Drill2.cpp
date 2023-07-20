@@ -7,27 +7,23 @@ using namespace std;
 
 int main() {
 
-    double val1, val2;
-    cout << "Please enter two integers" << endl;
+    double val1 = 0;
+    double smallest = 0;
+    double largest = 0;
+    cout << "Please enter an number" << endl;
 
-    while (cin>>val1>>val2){
-        if(val1>val2){
-            cout << "The smaller value is " << val2 << endl;
-            if(abs(val1-val2)<0.01){
-                cout << "The numbers are almost equal" << endl;
-            }
+    while (cin>>val1) {
+
+        cout << val1 << " entered" << endl;
+        if (val1 < smallest || smallest== 0) {
+            cout << "Smallest so far" << endl;
+            smallest = val1;
+        } else if (val1 > largest || largest== 0) {
+            cout << "Largest so far" << endl;
+            largest = val1;
         }
-        else if(val1<val2){
-            cout << "The smaller value is " << val1 << endl;
-            if(abs(val1-val2)<0.01){
-                cout << "The numbers are almost equal" << endl;
-            }
-        }
-        else if(val1==val2){
-            cout << "The  numbers are equal" << endl;
-        }
+
     }
-
 
 
 }

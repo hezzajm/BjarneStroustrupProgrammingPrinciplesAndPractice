@@ -338,6 +338,8 @@ namespace Numeric_lib {
 
         template<class F> Matrix apply_new(F f) { return xfer(Matrix(*this,f)); }
 
+
+
         void swap_rows(Index i, Index j)
         // swap_rows() uses a row's worth of memory for better run-time performance
         // if you want pairwise swap, just write it yourself

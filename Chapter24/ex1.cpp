@@ -3,19 +3,21 @@
 //
 
 #include "Matrix.h"
+
 #include <iostream>
 #include <complex>
 #include <cmath>
-
+#include <vector>
+#include <algorithm>
 using cmplx = std::complex<double>;
 using namespace Numeric_lib;
 using namespace std;
-
 void readMatrix(Matrix<double> &m);
 void printMatrix(Matrix<double> &m);
 
 int main(){
     //Drill 1:
+
     cout << "A char has size " << sizeof(char) << " bytes" << endl;
     cout << "An int has size " << sizeof(int) << " bytes" << endl;
     cout << "A long has size " << sizeof(long) << " bytes" << endl;
@@ -41,7 +43,7 @@ int main(){
     cout << "Matrix d has " << d.dim1()*d.dim2() << " elements" << endl;
     cout << "Matrix e has " << e.dim1()*e.dim2()*e.dim3() << " elements" << endl;
     //Drill 4:
-    /*
+
     int val = 0;
     cout << "Please enter a value to find the square root" << endl;
     while(cin >> val){
@@ -51,11 +53,13 @@ int main(){
         }
         cout << sqrt(val) << endl;
     }
-    */
+
     Matrix<double> f(4);
 
     readMatrix(f);
     printMatrix(f);
+
+
 }
 
 void readMatrix(Matrix<double> &m){
@@ -69,3 +73,7 @@ void printMatrix(Matrix<double> &m){
         cout << m(i) << "\n";
     }
 }
+
+
+
+
