@@ -9,8 +9,6 @@
 using namespace std;
 
 
-
-
 int main()
 {
     try{
@@ -23,7 +21,6 @@ int main()
         vector<int> v;
         int val;
         while(cin >> val) v.push_back(val);
-
 
         if (n>v.size()) error ("Not enough numbers entered, need" , n);
         for(int i=0;i<n;++i){
