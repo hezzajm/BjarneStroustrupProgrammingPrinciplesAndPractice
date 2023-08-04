@@ -3,4 +3,4 @@ project(BjarneStroustrupProgrammingPrinciplesAndPractice)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(BjarneStroustrupProgrammingPrinciplesAndPractice Chapter6/Calculator.cpp)
+add_executable(BjarneStroustrupProgrammingPrinciplesAndPractice  Chapter8Functions/ex6.cpp)
