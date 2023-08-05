@@ -29,3 +29,7 @@ bool Patron::owesFees() const{
     if(m_fees > 0) return true;
     else return false;
 }
+
+bool operator==(const Patron& a, const Patron& b){
+    return a.cardNum()==b.cardNum();
+}

@@ -31,7 +31,7 @@ private:
     double m_fees;
 };
 bool isValid(string m_name,int m_cardNum, double m_fees);
-
+bool operator==(const Patron& a, const Patron& b);
 
 
 

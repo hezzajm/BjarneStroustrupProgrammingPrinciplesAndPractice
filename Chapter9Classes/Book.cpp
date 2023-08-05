@@ -15,7 +15,7 @@ const Book& default_book()
 {
     static Book b{"0-0-0-0-0-0-0-0-0-X", "Quicksilver",
                   "Neal Stephenson",
-                  Date(2012,Month::may, 31),true ,Genre::fiction};
+                  Date(2012,Month::may, 31),false ,Genre::fiction};
     return b;
 }
 
