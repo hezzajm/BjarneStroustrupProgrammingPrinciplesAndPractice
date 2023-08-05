@@ -3,7 +3,7 @@
 //
 #include "../std_lib_facilities.h"
 #include "Book.h"
-
+#include "Patron.h"
 using namespace std;
 using Chrono::Date;
 using Chrono::Month;
@@ -20,10 +20,15 @@ int main(){
         Book anathem{"1-5-3-3-5-6-6-6-9-f", "Anathem",
                             "Neal Stephenson",
                             Date(1999,Month::apr, 1),true, Genre::fiction };
-        cryptonomicon.checkin();
-        cout << cryptonomicon << endl;
-        bool same = cryptonomicon==cryptonomicon1 ;
-        cout << same << endl;
+        Patron Henry{"Henry", 2702, 20};
+        cout << Henry.owesFees() << endl;
+
+
+
+
+
+
+
 
     }
 

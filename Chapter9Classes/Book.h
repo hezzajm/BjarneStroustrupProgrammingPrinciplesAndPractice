@@ -3,8 +3,6 @@
 //
 
 
-#include <utility>
-
 #include "../std_lib_facilities.h"
 #include "chrono.h"
 
@@ -16,7 +14,7 @@ enum class Genre{
 
 class Book {
 
-    public:
+public:
     Book(string ISBN, string title, string author,
          Date copyDate, bool checkOut, Genre genre );
 
@@ -29,19 +27,19 @@ class Book {
     Date date() const {return m_copyDate;};
     Genre genre() const {return m_genre;};
     bool checkOutStatus() const {return m_checkOut;};
+    bool is_valid();
 
     // Modifying operations
     void checkin();
     void checkout();
-    bool is_valid();
 
 
-    private:
-        Genre m_genre;
-        string m_ISBN, m_title, m_author;
-        Date m_copyDate;
-        bool m_checkOut;
-    };
+private:
+    Genre m_genre;
+    string m_ISBN, m_title, m_author;
+    Date m_copyDate;
+    bool m_checkOut;
+};
 
 //Helper functions
 
