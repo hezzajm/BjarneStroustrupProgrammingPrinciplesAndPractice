@@ -49,17 +49,10 @@ cmake_ninja_workdir = C$:\C++\BjarneStroustrupProgrammingPrinciplesAndPractice\c
 
 build cmake_object_order_depends_target_BjarneStroustrupProgrammingPrinciplesAndPractice: phony || CMakeFiles\BjarneStroustrupProgrammingPrinciplesAndPractice.dir
 
-build CMakeFiles\BjarneStroustrupProgrammingPrinciplesAndPractice.dir\Chapter14GraphicsClassDesign\drill.cpp.obj: CXX_COMPILER__BjarneStroustrupProgrammingPrinciplesAndPractice_Debug C$:\C++\BjarneStroustrupProgrammingPrinciplesAndPractice\Chapter14GraphicsClassDesign\drill.cpp || cmake_object_order_depends_target_BjarneStroustrupProgrammingPrinciplesAndPractice
+build CMakeFiles\BjarneStroustrupProgrammingPrinciplesAndPractice.dir\Chapter17VectorAndFreeStore\exercise2.cpp.obj: CXX_COMPILER__BjarneStroustrupProgrammingPrinciplesAndPractice_Debug C$:\C++\BjarneStroustrupProgrammingPrinciplesAndPractice\Chapter17VectorAndFreeStore\exercise2.cpp || cmake_object_order_depends_target_BjarneStroustrupProgrammingPrinciplesAndPractice
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++latest
   OBJECT_DIR = CMakeFiles\BjarneStroustrupProgrammingPrinciplesAndPractice.dir
-  OBJECT_FILE_DIR = CMakeFiles\BjarneStroustrupProgrammingPrinciplesAndPractice.dir\Chapter14GraphicsClassDesign
-  TARGET_COMPILE_PDB = CMakeFiles\BjarneStroustrupProgrammingPrinciplesAndPractice.dir\
-  TARGET_PDB = BjarneStroustrupProgrammingPrinciplesAndPractice.pdb
-
-build CMakeFiles\BjarneStroustrupProgrammingPrinciplesAndPractice.dir\Chapter15GraphingFunctions\Drill.cpp.obj: CXX_COMPILER__BjarneStroustrupProgrammingPrinciplesAndPractice_Debug C$:\C++\BjarneStroustrupProgrammingPrinciplesAndPractice\Chapter15GraphingFunctions\Drill.cpp || cmake_object_order_depends_target_BjarneStroustrupProgrammingPrinciplesAndPractice
-  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++latest
-  OBJECT_DIR = CMakeFiles\BjarneStroustrupProgrammingPrinciplesAndPractice.dir
-  OBJECT_FILE_DIR = CMakeFiles\BjarneStroustrupProgrammingPrinciplesAndPractice.dir\Chapter15GraphingFunctions
+  OBJECT_FILE_DIR = CMakeFiles\BjarneStroustrupProgrammingPrinciplesAndPractice.dir\Chapter17VectorAndFreeStore
   TARGET_COMPILE_PDB = CMakeFiles\BjarneStroustrupProgrammingPrinciplesAndPractice.dir\
   TARGET_PDB = BjarneStroustrupProgrammingPrinciplesAndPractice.pdb
 
@@ -71,7 +64,7 @@ build CMakeFiles\BjarneStroustrupProgrammingPrinciplesAndPractice.dir\Chapter15G
 #############################################
 # Link the executable BjarneStroustrupProgrammingPrinciplesAndPractice.exe
 
-build BjarneStroustrupProgrammingPrinciplesAndPractice.exe: CXX_EXECUTABLE_LINKER__BjarneStroustrupProgrammingPrinciplesAndPractice_Debug CMakeFiles\BjarneStroustrupProgrammingPrinciplesAndPractice.dir\Chapter14GraphicsClassDesign\drill.cpp.obj CMakeFiles\BjarneStroustrupProgrammingPrinciplesAndPractice.dir\Chapter15GraphingFunctions\Drill.cpp.obj
+build BjarneStroustrupProgrammingPrinciplesAndPractice.exe: CXX_EXECUTABLE_LINKER__BjarneStroustrupProgrammingPrinciplesAndPractice_Debug CMakeFiles\BjarneStroustrupProgrammingPrinciplesAndPractice.dir\Chapter17VectorAndFreeStore\exercise2.cpp.obj
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd
   LINK_FLAGS = /machine:X86 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
